@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- Optional: Add the Font Awesome JavaScript file for advanced features -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Wheather  app</title>
+    
+</head>
+
+<body>
+
+
+    <div class="container">
+<div class="header">
+<div class="searchbox">
+    <input type="text" placeholder="enter your city" class="inputbox" >
+    <button id="searchbtn" > <i class="fa fa-search" aria-hidden="true"></i></button>
+</div>
+
+
+
+</div>
+<div class="locationnotfound">
+
+    <h1>sorry location not found</h1>
+    <img src="aseets/img/404.png" alt="404">
+    
+    </div>
+
+
+<div class="whetherbody">
+    <img src="aseets/img/clear.png" alt="Wheather img" class="wimg">
+    <div class="wbox">
+        <p class="temp">0°C</p>
+        <p class="discrip">Cloud</p>
+    </div>
+    <div class="weather-details">
+        <div class="humidity">
+            <i class="fas fa-water"></i>
+            <div class="text">
+                <span id="humidity">45%</span>
+                <p>Humidity</p>
+            </div>
+
+</div>
+<div class="wind">
+<i class="fas fa-wind"></i>
+<div class="text">
+    <span id="wind-speed">12Km/H</span>
+    <p>Wind Speed</p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+    
+</body>
+<script src="script.js"> </script>
+</html>
